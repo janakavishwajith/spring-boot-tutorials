@@ -1,6 +1,8 @@
 package io.janaka.springbootstarter.topic;
 
-public class Topic {
+import java.io.Serializable;
+
+public class Topic implements Serializable {
 
 	private String id;
 	private String name;
